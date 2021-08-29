@@ -14,6 +14,9 @@ if name == "" or question == "":
     print("Please insert an name.")
   else:
     print("The fabric of reality is at risk. Please ask an question.")
+elif "Waffle Guy" in question:
+    print(f"\n{name} asks: {question}", end="\n")
+    print("Magic 8-Ball's answer: It is decidedly so.")
 else:
   print(f"\n{name} asks: {question}", end="\n")
   print("Magic 8-Ball's answer: ", end="")
